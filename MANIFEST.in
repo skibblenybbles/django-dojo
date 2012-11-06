@@ -1,0 +1,2 @@
+recursive-include dojo/static *
+global-exclude *.pyc .git*
