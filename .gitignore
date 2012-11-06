@@ -1,4 +1,5 @@
 build
+dist
 example/example/settings/local.py
 example/example/static
 *.pyc
