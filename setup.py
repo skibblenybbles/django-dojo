@@ -17,6 +17,7 @@ setup(
     long_description=read("README"),
     author="Mike Kibbel",
     author_email="mkibbel@gmail.com",
+    url="https://github.com/skibblenybbles/django-dojo",
     license="BSD License",
     platforms=["OS Independent"],
     classifiers=[
