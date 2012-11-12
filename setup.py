@@ -35,7 +35,8 @@ setup(
         "Topic :: Utilities",
     ],
     install_requires=[
-        "Django>=1.4"
+        "Django==1.4.2",
+        "django-classy-tags==0.3.4.1",
     ],
     packages=find_packages(exclude=["example", "example.*"]),
     include_package_data=True,

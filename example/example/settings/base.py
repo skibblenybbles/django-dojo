@@ -2,7 +2,7 @@ import os
 
 # Django settings for example project.
 
-# the project's absolute path
+# The project's absolute path
 PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # Language code for this installation. All choices can be found here:
@@ -91,6 +91,7 @@ INSTALLED_APPS = (
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "django.contrib.admin",
+    "classytags",
     "dojo",
 )
 
