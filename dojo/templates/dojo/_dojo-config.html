@@ -1,0 +1,25 @@
+<script>
+    window.dojoConfig = {
+        async: true,
+        parseOnLoad: false,
+        packages: [
+            {
+                name: "dojo",
+                location: "{{ dojo_config.url }}/dojo"
+            },
+            {
+                name: "dijit",
+                location: "{{ dojo_config.url }}/dijit"
+            },
+            {
+                name: "dojox",
+                location: "{{ dojo_config.url }}/dojox"
+            }{% for application in applications %},
+            {
+                name: "{{ application }}",
+                location: "{{ dojo_config.url }}/{{ application }}"
+            }{% endfor %}
+        ]
+    };
+</script>
+<script src="{{ dojo_config.url }}/dojo/dojo.js"></script>
